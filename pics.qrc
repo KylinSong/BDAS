@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>data/logo.png</file>
+        <file>data/上肢可达性地图.png</file>
+        <file>data/主动触觉地图.png</file>
+        <file>data/信号可达性地图.png</file>
+        <file>data/视觉可达性地图.png</file>
+        <file>data/被动触觉地图.png</file>
+        <file>data/负荷地图.png</file>
+        <file>data/身周距离感知地图.png</file>
+        <file>data/运动障碍地图.png</file>
+        <file>data/温觉身体地图.png</file>
+        <file>data/BDAS.png</file>
+        <file>data/正确.png</file>
+        <file>data/等待.png</file>
+        <file>data/发送-实色.png</file>
+        <file>data/用户 (1).png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>data/ai_bodymap_logo.png</file>
+    </qresource>
+</RCC>

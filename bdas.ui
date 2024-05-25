@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BDAS</class>
+ <widget class="QMainWindow" name="BDAS">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>850</width>
+    <height>567</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>BDAS</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="myStackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>841</width>
+      <height>491</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>850</width>
+     <height>43</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuconcept_design">
+    <property name="title">
+     <string>concept design</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuhuman_factor_design">
+    <property name="title">
+     <string>human factor design </string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuchatBDAS">
+    <property name="title">
+     <string>chatBDAS</string>
+    </property>
+   </widget>
+   <addaction name="menuconcept_design"/>
+   <addaction name="menuhuman_factor_design"/>
+   <addaction name="menuchatBDAS"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
